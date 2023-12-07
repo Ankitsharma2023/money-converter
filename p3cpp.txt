@@ -1,0 +1,33 @@
+#include<iostream>
+#include<cmath>
+using namespace std;
+int main()
+{
+    float ruppe,dollar;
+    char choose;
+cout<<"1.enter for converting dollar into ruppe"<<endl;
+cout<<"2.enter for converting ruppe into dollar"<<endl;
+cin>>choose;
+
+{
+ if(choose=='1')
+ {
+ cout<<"enter the value of dollar"<<endl;
+ cin>>dollar;
+ ruppe=dollar-80;
+ cout<<"the value in ruppes is "<<ruppe<<endl;}
+
+ else if (choose =='2')
+ {
+  cout<<"enter the value of ruppe"<<endl;
+ cin>>ruppe;
+ dollar=ruppe+80;
+ cout<<"the value in dollar is "<<dollar<<endl;
+
+} else
+{
+ cout<<"wrong output choosen";}
+
+}
+return 0;
+}
